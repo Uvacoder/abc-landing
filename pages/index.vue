@@ -42,9 +42,9 @@ export default {
     }
   },
   async fetch() {
-    const filter = ["Mehmetali345Dev", "basic-chat","discord-rpc", "katilcivciv-site", "345teamsite", "launcher-site", "anakinium", "musicapp", "dcutilities", "gzb", "EleventyBlog","mehmetali345.xyz","kitten-site"]
+    const filter = ["githubuser-view", "star-charts", "devfont", "my-code-tips-cheatsheets", "abc-portfolios", "hashnode-analytics", "github-rater", "abc-gitstalk", "githubstars", "codingtips", "awesome-newsletters","cheatsheets-dev","abc-awesomesearch"]
     const { data: repos } = await this.$axios.get(
-      "https://api.github.com/users/Mehmetali345Dev/repos"
+      "https://api.github.com/users/uvacoder/repos"
     )
 
     this.repos = repos
